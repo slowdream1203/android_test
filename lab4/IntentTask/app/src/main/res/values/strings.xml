@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntentTask</string>
+    <string name="test_url">https://www.baidu.com</string>
+
+</resources>
