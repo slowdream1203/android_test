@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="MainActivity">
+
+    <Button
+        android:id="@+id/linearLayout"
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:text="线性布局" />
+
+    <Button
+        android:id="@+id/relativeLayout"
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:text="相对布局" />
+
+    <Button
+        android:id="@+id/tableLayout"
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:text="表格布局" />
+</LinearLayout>

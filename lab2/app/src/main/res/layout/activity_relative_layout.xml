@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/RED"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="68dp"
+        android:layout_toStartOf="@+id/ORANGE"
+        android:background="#f00"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="RED"
+        android:textColor="#000"></TextView>
+
+    <TextView
+        android:id="@+id/ORANGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="49dp"
+        android:layout_toStartOf="@+id/YELLOW"
+        android:background="#ffa500"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="ORANGE"
+        android:textColor="#000"></TextView>
+
+    <TextView
+        android:id="@+id/YELLOW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:background="#ffff00"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="YELLOW"
+        android:textColor="#000"></TextView>
+
+    <TextView
+        android:id="@+id/GREEN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView07"
+        android:layout_below="@+id/ORANGE"
+        android:layout_marginTop="215dp"
+        android:layout_marginRight="-214dp"
+        android:layout_marginBottom="304dp"
+        android:layout_toLeftOf="@+id/BLUE"
+        android:background="#0f0"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="GREEN"
+        android:textColor="#000"></TextView>
+
+    <TextView
+        android:id="@+id/BLUE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView07"
+        android:layout_below="@+id/ORANGE"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="303dp"
+        android:layout_toStartOf="@+id/ORANGE"
+        android:background="#00f"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="BLUE"
+        android:textColor="#fff"></TextView>
+
+    <TextView
+        android:id="@+id/INDIGO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView07"
+        android:layout_below="@+id/ORANGE"
+        android:layout_alignStart="@+id/GREEN"
+        android:layout_marginStart="109dp"
+        android:layout_marginLeft="187dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginBottom="304dp"
+        android:layout_toRightOf="@+id/BLUE"
+        android:background="#4b0082"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="INDIGO"
+        android:textColor="#fff"></TextView>
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:background="#ee82ee"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="VIOLET"
+        android:textColor="#000"></TextView>
+</RelativeLayout>
